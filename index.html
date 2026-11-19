@@ -1,0 +1,177 @@
+.qty-value {
+      min-width: 22px;
+      text-align: center;
+      font-size: 0.9rem;
+      font-weight: 800;
+      color: var(--text-dark);
+    }
+
+    .add-first-btn {
+      background: var(--red-light);
+      color: var(--red-primary);
+      border: 1px solid #F5B7C1;
+      border-radius: 10px;
+      padding: 5px 12px;
+      font-family: inherit;
+      font-size: 0.8rem;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    /* صفحة تواصل معنا */
+    .contact-card {
+      background: var(--white);
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--border-color);
+      text-align: center;
+      margin-bottom: 16px;
+    }
+
+    .contact-card h2 {
+      color: var(--red-primary);
+      font-size: 1.25rem;
+      font-weight: 900;
+      margin-bottom: 6px;
+    }
+
+    .contact-card p {
+      color: var(--text-muted);
+      font-size: 0.88rem;
+      margin-bottom: 18px;
+    }
+
+    .contact-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      padding: 14px 16px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 1rem;
+      margin-bottom: 12px;
+      transition: transform 0.15s;
+    }
+
+    .contact-btn:active {
+      transform: scale(0.98);
+    }
+
+    .btn-call {
+      background: var(--red-primary);
+      color: var(--white);
+      box-shadow: 0 4px 12px rgba(200, 16, 46, 0.25);
+    }
+
+    .btn-map {
+      background: #2563EB;
+      color: var(--white);
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.22);
+    }
+
+    .btn-wa {
+      background: var(--green-btn);
+      color: var(--white);
+      box-shadow: 0 4px 12px rgba(22, 163, 74, 0.25);
+    }
+
+    .info-list {
+      background: var(--bg-gray);
+      border-radius: 14px;
+      padding: 12px;
+      text-align: right;
+      font-size: 0.86rem;
+      margin-top: 8px;
+    }
+
+    .info-list div {
+      margin-bottom: 6px;
+    }
+
+    .info-list div:last-child {
+      margin-bottom: 0;
+    }
+
+    /* الفوتر */
+    .app-footer {
+      text-align: center;
+      padding: 18px 16px 8px;
+      color: var(--text-muted);
+      font-size: 0.82rem;
+    }
+
+    .insta-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 6px;
+      color: var(--red-primary);
+      font-weight: 800;
+      text-decoration: none;
+      background: var(--white);
+      padding: 6px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--border-color);
+      box-shadow: var(--shadow-sm);
+    }
+
+    /* الشريط الثابت في الأسفل */
+    .sticky-bottom-wrap {
+      position: fixed;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      max-width: 480px;
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(10px);
+      border-top: 1px solid var(--border-color);
+      padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
+      z-index: 60;
+      box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .order-mini-bar {
+      display: none;
+      align-items: center;
+      justify-content: space-between;
+      background: var(--red-light);
+      color: var(--red-dark);
+      padding: 7px 12px;
+      border-radius: 11px;
+      margin-bottom: 8px;
+      font-size: 0.84rem;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .order-mini-bar.visible {
+      display: flex;
+    }
+
+    .fixed-book-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      background: linear-gradient(135deg, #22C55E, var(--green-btn));
+      color: var(--white);
+      border: none;
+      border-radius: 14px;
+      padding: 14px 16px;
+      font-family: inherit;
+      font-size: 1.05rem;
+      font-weight: 900;
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(22, 163, 74, 0.35);
+      transition: transform 0.15s;
+    }
+
+    .fixed-book-btn:active {
+      transform: scale(0.98);
+    }
